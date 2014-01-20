@@ -1,0 +1,16 @@
+name:                acme-basic
+version:             0.1.0.0
+synopsis:            Unstructured programming for a new age.
+-- description:         
+license:             MIT
+author:              Patrick Chilton
+maintainer:          chpatrick@gmail.com
+-- copyright:           
+category:            Development
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Acme.BASIC
+  -- other-modules:       
+  build-depends:       base ==4.6.*, mtl ==2.1.*
